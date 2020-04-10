@@ -15,7 +15,7 @@ The basic command is `choco install -y <packagename>`. You can also install mult
 
 ## Chocolatey Install Commands
 
-** Remember to run these commands from an elevated command prompt! **
+**Remember to run these commands from an elevated command prompt!**
 
 - Google Chrome `choco install -y googlechrome`
 - Firefox `choco install -y firefox`
@@ -30,7 +30,7 @@ Install all of the above: `choco install -y googlechrome firefox putty 7zip note
 
 # Fixing Windows Updates
 
-** Remember to run these commands from an elevated command prompt! **
+**Remember to run these commands from an elevated command prompt!**
 
 ## Disable Windows 10 Automatic Updates
 
