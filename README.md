@@ -33,7 +33,8 @@ Install all of the above: `choco install -y googlechrome firefox putty 7zip note
 **Remember to run these commands from an elevated command prompt!**
 
 This is the mother file. Run this if you don't want to be bothered running the one off commands below.
-[Fix My Windows Machine](fix-my-machine.bat)
+
+**Download and run this file from an elevated command prompt -->** [Fix My Windows Machine](fix-my-machine.bat)
 
 ## Disable Windows 10 Automatic Updates
 
