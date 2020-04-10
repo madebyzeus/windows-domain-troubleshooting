@@ -1,6 +1,6 @@
 # Windows Domain Troubleshooting
 
-This guide contains tips to trouble shoot and diagnose Windows related domain issues.
+This guide contains tips to troubleshoot and diagnose Windows related domain issues.
 
 Use this README as a guide. Each section provides help for Windows users. More will be added as issues arise.
 
@@ -15,6 +15,8 @@ The basic command is `choco install -y <packagename>`. You can also install mult
 
 ## Chocolatey Install Commands
 
+** Remember to run these commands from an elevated command prompt! **
+
 - Google Chrome `choco install -y googlechrome`
 - Firefox `choco install -y firefox`
 - Putty `choco install -y putty`
@@ -27,6 +29,8 @@ The basic command is `choco install -y <packagename>`. You can also install mult
 Install all of the above: `choco install -y googlechrome firefox putty 7zip notepadplusplus teamviewer zoom-client google-drive-file-stream`
 
 # Fixing Windows Updates
+
+** Remember to run these commands from an elevated command prompt! **
 
 ## Disable Windows 10 Automatic Updates
 
