@@ -2,7 +2,7 @@
 
 This guide contains tips to trouble shoot and diagnose Windows related domain issues.
 
-Use this README as a guide. Each section provides some help for Windows users. More will be added as issue arise.
+Use this README as a guide. Each section provides help for Windows users. More will be added as issues arise.
 
 # Install Chocolatey Package Manager
 
