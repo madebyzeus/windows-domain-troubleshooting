@@ -20,3 +20,22 @@ The basic command is `choco install -y <packagename>`. You can also install mult
 - Putty `choco install -y putty`
 - 7zip `choco install 7zip`
 - Notepad++ `choco install -y notepadplusplus`
+- Teamviewer `choco install -y teamviewer`
+- Zoom Client `choco install -y zoom-client`
+- Google Drive File Stream `choco install -y google-drive-file-stream`
+
+Install all of the above: `choco install -y googlechrome firefox putty 7zip notepadplusplus teamviewer zoom-client google-drive-file-stream`
+
+# Fixing Windows Updates
+
+## Disable Windows 10 Automatic Updates
+
+`REG ADD HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU /v "NoAutoUpdate" /t REG_DWORD /d "1" /f`
+
+## Turn Off Firewall
+
+`netsh advfirewall set allprofiles state off`
+
+## Enable Remote Desktop Protocol
+
+`reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f`
